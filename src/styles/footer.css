@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 7.5rem;
+  margin-top: 15rem;
   margin-bottom: 5rem;
 }
 
@@ -91,4 +91,38 @@ ul .flist-item:not(:first-child) {
 
 .dc-icon:hover {
   color: #5865f2;
+}
+
+.connect,
+.community,
+.learning {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .connect,
+  .community {
+    margin-top: 2.5rem;
+  }
+  .learning {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .connect,
+  .community,
+  .learning {
+    margin-top: 2.5rem;
+  }
 }

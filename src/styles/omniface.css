@@ -1,0 +1,273 @@
+.omniface-landing {
+  position: relative;
+}
+
+.omni-main {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.omni-wrt {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1.75rem;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .omni-wrt {
+    font-size: 4rem;
+    top: 95%;
+    letter-spacing: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .omni-wrt {
+    font-size: 2rem;
+    top: 95%;
+    letter-spacing: 1rem;
+  }
+}
+
+.omni-landing-conn {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .omni-landing-conn {
+    font-size: 3.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .omni-landing-conn {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .omni-landing-conn {
+    font-size: 2.25rem;
+  }
+}
+
+/* OmniInfo */
+
+.omni-info {
+  margin-top: 10rem;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.infos {
+  margin-left: 2.5rem;
+}
+
+.info-heading {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.info-wrt {
+  margin-top: 2.5rem;
+}
+
+.omni-info .single-info:not(:first-child) {
+  margin-top: 15rem;
+}
+
+.omni-links {
+  margin-top: 2.5rem;
+}
+
+.s-hr {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to right, #f5189e 0%, #1726e3 100%);
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  font-size: 1.3rem;
+  transition: all 0.5s;
+}
+
+.s-hr:hover {
+  background: linear-gradient(to right, #1726e3 0%, #f5189e 100%);
+}
+
+.buttons {
+  font-size: 2.75rem;
+  gap: 1rem;
+}
+
+.btn-link {
+  color: white;
+}
+
+.win:hover {
+  color: #1726e3;
+}
+
+.ios:hover {
+  color: #f5189e;
+}
+
+@media screen and (max-width: 768px) {
+  .infos {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+}
+
+/* PRICING SECTION */
+.pricing-section {
+  margin-top: 10rem;
+}
+
+.card {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+  border: 2px solid #eee;
+  background-color: black;
+}
+
+.card-header {
+  letter-spacing: 1rem;
+  color: #c047fa;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.price {
+  letter-spacing: 1.2rem;
+  font-size: 5rem;
+}
+
+.card-attr-heading {
+  margin-top: 2.5rem;
+  color: #c047fa;
+}
+
+.card-attr-writing {
+  margin-top: 2.5rem;
+}
+
+/** -- Bottom Side -- **/
+
+.for-developers {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.dev-card {
+  margin-top: 5rem;
+}
+
+.dev-info {
+  margin-top: 5rem;
+}
+
+.dev-writing {
+  margin-top: 2.5rem;
+}
+
+.dev-header {
+  letter-spacing: 1rem;
+  color: #c047fa;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.dev-img {
+  width: 100%;
+}
+
+.pricing-main {
+  margin-top: 0rem;
+}
+
+@media screen and (max-width: 767px) {
+  .pricing-main {
+    margin-top: 5rem;
+  }
+}
+
+.card::after {
+  content: "----------------------------------------------------------------------------------";
+  color: transparent;
+}
+
+.price-mo {
+  display: inline-block;
+  font-size: 1.6rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.specialities {
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.price-item {
+  text-align: left;
+}
+
+.price-list .price-item:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+.load-more {
+  text-decoration: none;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right,
+    #f5189e 0%,
+    #6167c4 51%,
+    #f5189e 100%
+  );
+}
+.load-more:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+  background-position: right center;
+  color: #fff;
+}
+
+.price-detail {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  color: #bbb;
+}
