@@ -48,7 +48,7 @@ function Home() {
             <img className="divider-image" src={styletto} alt="Styletto" />
             <div className="img-wrt">Styletto</div>
           </Link>
-          <Link className="col-md-4 img-col" to="/">
+          <Link className="col-md-4 img-col" to="/omniface">
             <img className="divider-image" src={omniface} alt="Omniface" />
             <div className="img-wrt omni">Try Omniface Avatar Now!</div>
           </Link>
