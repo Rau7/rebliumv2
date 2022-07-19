@@ -134,3 +134,10 @@
   font-size: 3.5rem;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1200px) {
+  .landing-content {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}

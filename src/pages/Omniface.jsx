@@ -102,7 +102,9 @@ function Omniface() {
               <p className="card-writing">
                 Great for people learning to stream
               </p>
+              <div className="free-div-one"></div>
               <p className="price">Free</p>
+              <div className="free-div-two"></div>
               <div className="button-area d-flex justify-content-center">
                 <a href="#" className="load-more">
                   Try Now
@@ -158,6 +160,7 @@ function Omniface() {
             <div className="card">
               <h2 className="card-header text-center">Pro</h2>
               <p className="card-writing">Perfect for professional streamers</p>
+              <div className="pro-div-one"></div>
               <p className="price">$99.99</p>
               <p className="price-detail">$8.00/Month</p>
               <div className="button-area d-flex justify-content-center">

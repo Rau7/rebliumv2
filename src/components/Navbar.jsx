@@ -1,15 +1,16 @@
 import React from "react";
 import logo from "../images/logo_reblium.png";
 import "../styles/navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="nav-area">
       <nav className="navbar navbar-expand-md navbar-light bg-transparent">
-        <div className="container">
-          <a className="navbar-brand" href="landingv2.html">
+        <div className="container-lg">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="Logo of Reblium" className="navbar-logo" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,34 +28,151 @@ function Navbar() {
           >
             <ul className="navbar-nav d-flex align-items-center">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
-                  Products
-                </a>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <Link className="dropdown-item" to="/omniface">
+                        Omniface
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/">
+                        Spawn SDK
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/styletto">
+                        Styletto
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Company
-                </a>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Company
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Jobs
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Press Kit
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Learning
-                </a>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton3"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Learning
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton3"
+                  >
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Tutorial
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Get Help
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        FAQ
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Community
-                </a>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton4"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Community
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton4"
+                  >
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Avatar Contest
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Discord
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Forum
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <button type="button" className="btn btn-light">
                   Sign In
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a href="#" className="btn cstm-btn">
+                <button type="button" className="btn btn-light">
                   Subscribe
-                </a>
+                </button>
               </li>
             </ul>
           </div>

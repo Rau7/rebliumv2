@@ -91,7 +91,7 @@ function Footer() {
             />
           </div>
           <div className="subscribe-btn-area d-flex justify-content-center">
-            <button type="button" class="btn btn-primary sbscrb-btn">
+            <button type="button" className="btn btn-primary sbscrb-btn">
               Subscribe
             </button>
           </div>

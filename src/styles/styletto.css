@@ -1,0 +1,200 @@
+.styletto-landing {
+  position: relative;
+}
+
+.styletto-main {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.styletto-wrt {
+  position: absolute;
+  top: 21rem;
+  left: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1.75rem;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 4.25rem;
+  text-align: center;
+  color: white;
+}
+
+.styletto-wrt p {
+  width: 1750px;
+}
+
+@media screen and (max-width: 1200px) {
+  .styletto-wrt {
+    font-size: 4rem;
+    top: 21rem;
+    letter-spacing: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .styletto-wrt {
+    font-size: 3.25rem;
+    top: 19rem;
+    letter-spacing: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .styletto-wrt {
+    font-size: 3rem;
+    top: 18rem;
+    letter-spacing: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .styletto-wrt {
+    font-size: 2.65rem;
+    top: 18rem;
+    letter-spacing: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .styletto-wrt {
+    font-size: 2.2rem;
+    top: 18rem;
+    letter-spacing: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .styletto-wrt {
+    font-size: 2rem;
+    top: 18rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .styletto-wrt p {
+    width: 750px;
+  }
+}
+
+.styletto-landing-conn {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .styletto-landing-conn {
+    font-size: 3.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .styletto-landing-conn {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .styletto-landing-conn {
+    font-size: 2rem;
+  }
+}
+
+.styletto-info {
+  margin-top: 10rem;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.infos-styletto {
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .infos-styletto {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+}
+
+.info-heading {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.info-wrt {
+  margin-top: 2.5rem;
+}
+
+.styletto-info .single-info:not(:first-child) {
+  margin-top: 15rem;
+}
+
+.styletto-links {
+  margin-top: 2.5rem;
+}
+
+.s-hr {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to right, #f5189e 0%, #1726e3 100%);
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  font-size: 1.3rem;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.s-hr:hover {
+  background: linear-gradient(to right, #1726e3 0%, #f5189e 100%);
+}
+
+.pricing-section {
+  margin-top: 10rem;
+}
+
+.stylettocard {
+  margin-top: 0rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+  border: 0px solid #eee;
+  background-color: black;
+}
+
+.stylettocard-header {
+  letter-spacing: 1rem;
+  color: #c047fa;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.price {
+  letter-spacing: 1.2rem;
+  font-size: 5rem;
+}
+
+.card-attr-heading {
+  margin-top: 2.5rem;
+  color: #c047fa;
+}
+
+.card-attr-writing {
+  margin-top: 2.5rem;
+}
+
+.styletto-bot-img {
+  margin-top: 0rem;
+}
+
+.specialities {
+  margin-top: 1.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}

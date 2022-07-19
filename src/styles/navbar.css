@@ -35,19 +35,12 @@
   margin-left: 3rem;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-collapse {
-    background-color: purple;
-  }
-  .navbar-nav {
-    margin-left: 1rem;
-  }
-}
 .nav-area {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 .cstm-btn {
@@ -72,4 +65,126 @@
 
 .navbar-nav {
   gap: 1.5rem;
+}
+
+/* NAV LINKS */
+.btn-secondary {
+  background-color: transparent;
+  font-size: 1.6rem;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 0%);
+}
+
+.btn-secondary:hover {
+  color: rgb(203, 203, 203);
+}
+
+.dropdown-menu {
+  background-color: #212023;
+  color: white;
+}
+
+.dropdown-menu li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.dropdown-item {
+  color: #7976e8;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+  color: #7976e8;
+  background-color: black;
+}
+
+.btn-light {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right,
+    #f5189e 0%,
+    #6167c4 51%,
+    #f5189e 100%
+  );
+}
+
+.btn-light:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+  background-position: right center;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-nav {
+    gap: 0rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 956px) {
+  .btn-secondary {
+    font-size: 1.3rem;
+  }
+  .btn-light {
+    font-size: 1rem;
+    width: 80px;
+  }
+  .nav-item {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-image: linear-gradient(
+      180deg,
+      rgba(36, 5, 69, 1) 29%,
+      rgba(0, 0, 0, 1) 60%
+    );
+    border-radius: 10px;
+  }
+  .navbar-nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .dropdown-menu {
+    margin-left: 5.75px;
+  }
 }

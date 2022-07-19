@@ -15,8 +15,8 @@ function Home() {
       <Navbar />
       <section className="landing-section">
         <div className="row">
-          <div className="col-lg-4" />
-          <div className="col-lg-8 d-flex justify-content-center">
+          <div className="col-lg-5"></div>
+          <div className="col-lg-6 container d-flex justify-content-center">
             <div className="landing-content">
               <div className="landing-img-area">
                 <img
@@ -44,7 +44,7 @@ function Home() {
       </section>
       <section className="three-images-section">
         <div className="row img-row">
-          <Link className="col-md-4 img-col" to="/">
+          <Link className="col-md-4 img-col" to="/styletto">
             <img className="divider-image" src={styletto} alt="Styletto" />
             <div className="img-wrt">Styletto</div>
           </Link>

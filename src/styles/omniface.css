@@ -271,3 +271,39 @@
   font-size: 1.3rem;
   color: #bbb;
 }
+
+.free-div-one {
+  margin-top: 2.15rem;
+}
+
+.free-div-two {
+  margin-top: 6.1rem;
+}
+
+.pro-div-one {
+  margin-top: 2.15rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .free-div-one {
+    margin-top: 2.45rem;
+  }
+
+  .free-div-two {
+    margin-top: 3.2rem;
+  }
+
+  .pro-div-one {
+    margin-top: 2.15rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .free-div-one {
+    margin-top: 2.45rem;
+  }
+
+  .free-div-two {
+    margin-top: 5.73rem;
+  }
+}
