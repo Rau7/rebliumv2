@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Omniface from "./pages/Omniface";
 import Styletto from "./pages/Styletto";
+import Spawn from "./pages/Spawn";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route exact path="/" element={<Home />} />
       <Route exact path="/omniface" element={<Omniface />} />
       <Route exact path="/styletto" element={<Styletto />} />
+      <Route exact path="/spawn" element={<Spawn />} />
     </Routes>
   );
 }

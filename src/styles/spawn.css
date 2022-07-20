@@ -1,0 +1,198 @@
+.spawn-landing {
+  position: relative;
+}
+
+.spawn-main {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.spawn-wrt {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1.75rem;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  width: 1750px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .spawn-wrt {
+    font-size: 4rem;
+    top: 95%;
+    letter-spacing: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .spawn-wrt {
+    font-size: 2rem;
+    top: 95%;
+    letter-spacing: 1rem;
+  }
+}
+.spawn-landing-conn {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .spawn-landing-conn {
+    font-size: 3.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .spawn-landing-conn {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .spawn-landing-conn {
+    font-size: 2rem;
+  }
+}
+
+.spawn-info {
+  margin-top: 10rem;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.infos-spawn {
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .infos-spawn {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+}
+
+.info-heading {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.info-wrt {
+  margin-top: 2.5rem;
+}
+
+.spawn-info .single-info:not(:first-child) {
+  margin-top: 15rem;
+}
+
+.spawn-links {
+  margin-top: 2.5rem;
+}
+
+.s-hr {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to right, #f5189e 0%, #1726e3 100%);
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  font-size: 1.3rem;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.s-hr:hover {
+  background: linear-gradient(to right, #1726e3 0%, #f5189e 100%);
+}
+
+.pricing-section {
+  margin-top: 10rem;
+}
+
+.spawncard {
+  margin-top: 0rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+  border: 0px solid #eee;
+  background-color: black;
+}
+
+.spawncard-header {
+  letter-spacing: 1rem;
+  color: #c047fa;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.price {
+  letter-spacing: 1.2rem;
+  font-size: 5rem;
+}
+
+.card-attr-heading {
+  margin-top: 2.5rem;
+  color: #c047fa;
+}
+
+.card-attr-writing {
+  margin-top: 2.5rem;
+}
+
+.spawn-bot-img {
+  margin-top: 0rem;
+}
+
+.specialities {
+  margin-top: 1.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.spawn-heading {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.for-developers {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.dev-card {
+  margin-top: 5rem;
+}
+
+.dev-info {
+  margin-top: 5rem;
+}
+
+.dev-writing {
+  margin-top: 2.5rem;
+}
+
+.dev-header {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.dev-img {
+  width: 100%;
+}
