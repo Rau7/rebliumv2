@@ -52,7 +52,7 @@ function Home() {
             <img className="divider-image" src={omniface} alt="Omniface" />
             <div className="img-wrt omni">Try Omniface Avatar Now!</div>
           </Link>
-          <Link className="col-md-4 img-col" to="/spawn">
+          <Link className="col-md-4 img-col" to="/spawnsdk">
             <img className="divider-image" src={spawn} alt="Spawn SDK" />
             <div className="img-wrt">SPAWN SDK</div>
           </Link>

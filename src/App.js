@@ -13,7 +13,7 @@ function App() {
       <Route exact path="/" element={<Home />} />
       <Route exact path="/omniface" element={<Omniface />} />
       <Route exact path="/styletto" element={<Styletto />} />
-      <Route exact path="/spawn" element={<Spawn />} />
+      <Route exact path="/spawnsdk" element={<Spawn />} />
     </Routes>
   );
 }
