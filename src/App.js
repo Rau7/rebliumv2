@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Omniface from "./pages/Omniface";
 import Styletto from "./pages/Styletto";
 import Spawn from "./pages/Spawn";
+import AvatarSystem from "./pages/AvatarSystem";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/omniface" element={<Omniface />} />
       <Route exact path="/styletto" element={<Styletto />} />
       <Route exact path="/spawnsdk" element={<Spawn />} />
+      <Route exact path="/avatar_system" element={<AvatarSystem />} />
     </Routes>
   );
 }
