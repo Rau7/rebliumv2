@@ -96,6 +96,11 @@ function AvatarSystem() {
           </div>
         </div>
       </section>
+      <section className="pricing-area d-flex justify-content-center">
+        <a href="#" className="load-more">
+          PRICE
+        </a>
+      </section>
       <section className="for-developers container">
         <h1 className="pricing-main-header text-center d-flex justify-content-center">
           FOR METAVERSE DEVELOPERS

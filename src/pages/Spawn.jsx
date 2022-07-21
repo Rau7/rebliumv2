@@ -96,7 +96,7 @@ function Spawn() {
           </div>
         </div>
       </section>
-      <section className="for-developers">
+      <section className="for-developers container">
         <h1 className="pricing-main-header text-center d-flex justify-content-center">
           FOR METAVERSE DEVELOPERS
         </h1>
