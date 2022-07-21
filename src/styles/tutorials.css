@@ -1,0 +1,148 @@
+.tut-landing {
+  margin-top: 17rem;
+}
+.tut-wrt {
+  letter-spacing: 1.75rem;
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.tut-main {
+  margin-top: 10rem;
+}
+
+.tut-element-xl {
+  margin-top: 10rem;
+}
+
+.tut-element {
+  margin-top: 10rem;
+  display: flex;
+}
+
+.tut-wrt-col {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .tut-wrt-col {
+    margin-left: 0rem;
+  }
+  .info-heading {
+    margin-top: 5rem;
+  }
+}
+
+.lasts {
+  margin-top: 10rem;
+}
+
+.info-heading {
+  font-size: 2.25rem;
+  text-transform: none;
+  letter-spacing: 1rem;
+}
+
+.info-wrt {
+  margin-top: 2.5rem;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.for-developers {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.dev-card {
+  margin-top: 5rem;
+}
+
+.dev-info {
+  margin-top: 5rem;
+}
+
+.dev-writing {
+  margin-top: 2.5rem;
+}
+
+.dev-header {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.dev-img {
+  width: 100%;
+}
+
+.pagination {
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.page-num-btn {
+  color: white;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.page-num-btn.active {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.page-num-btn:hover {
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.next-btn {
+  color: #c047fa;
+  letter-spacing: 1rem;
+  background-color: transparent;
+  font-size: 1.75rem;
+  border: 2px solid transparent;
+  border-radius: 12%;
+}
+
+.next-btn:hover {
+  color: #c047fa;
+  border: 2px solid #c047fa;
+}
+
+.play-area {
+  gap: 1rem;
+}
+
+.play-wrt {
+  font-size: 1.45rem;
+  margin-top: 1rem;
+}
+
+.play-icon {
+  font-size: 2.5rem;
+}
+
+.play-icon:hover {
+  cursor: pointer;
+  color: red;
+}

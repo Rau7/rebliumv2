@@ -8,6 +8,7 @@ import Styletto from "./pages/Styletto";
 import Spawn from "./pages/Spawn";
 import AvatarSystem from "./pages/AvatarSystem";
 import Reblika from "./pages/Reblika";
+import Tutorials from "./pages/Tutorials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/spawnsdk" element={<Spawn />} />
       <Route exact path="/avatar_system" element={<AvatarSystem />} />
       <Route exact path="/reblika" element={<Reblika />} />
+      <Route exact path="/tutorials" element={<Tutorials />} />
     </Routes>
   );
 }

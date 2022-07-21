@@ -8,6 +8,7 @@ import {
   FaDiscord,
 } from "react-icons/fa";
 import "../styles/footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -53,7 +54,7 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <a href="#">Tutorials</a>
+                <Link to="/tutorials">Tutorials</Link>
               </li>
               <li className="flist-item">
                 <a href="#">Get Help</a>
