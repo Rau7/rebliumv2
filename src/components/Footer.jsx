@@ -38,7 +38,7 @@ function Footer() {
                 <a href="#">Blog</a>
               </li>
               <li className="flist-item">
-                <a href="#">About</a>
+                <Link to="/about_us">About</Link>
               </li>
               <li className="flist-item">
                 <a href="#">Jobs</a>

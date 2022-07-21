@@ -1,0 +1,193 @@
+.about-landing {
+  position: relative;
+}
+
+.about-main {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.about-wrt {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-head1 {
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  width: 1750px;
+  letter-spacing: 1.3rem;
+}
+
+.about-head2 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-align: center;
+  color: white;
+  width: 1750px;
+  letter-spacing: 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-head1 {
+    font-size: 3.5rem;
+    top: 95%;
+    letter-spacing: 1rem;
+  }
+  .about-wrt {
+    top: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-head1 {
+    font-size: 2rem;
+    top: 95%;
+    width: auto;
+    letter-spacing: 1rem;
+  }
+  .about-head2 {
+    width: auto;
+  }
+  .about-wrt {
+    top: 70%;
+  }
+}
+
+.about-main-content {
+  margin-top: 10rem;
+}
+
+.about-element-xl {
+  margin-top: 10rem;
+}
+
+.about-element-md {
+  margin-top: 10rem;
+  display: none;
+}
+
+.about-wrt-col {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-element-md {
+    display: flex;
+  }
+  .about-element-xl {
+    display: none;
+  }
+  .about-wrt-col {
+    margin-left: 0rem;
+  }
+  .info-heading {
+    margin-top: 5rem;
+  }
+}
+
+.lasts {
+  margin-top: 10rem;
+}
+
+.info-heading {
+  font-size: 2.25rem;
+  text-transform: none;
+  letter-spacing: 1rem;
+}
+
+.info-wrt {
+  margin-top: 2.5rem;
+}
+
+.single-img {
+  width: 100%;
+}
+
+/* TEAM SECTION */
+.team-sec {
+  margin-top: 10rem;
+}
+
+.all-team {
+  padding: 1rem;
+}
+
+.team-heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.team-row {
+  margin-top: 5rem;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.team-member {
+  padding: 1rem;
+}
+
+.team-name {
+  margin-top: 2.5rem;
+}
+
+.boss-area {
+  background-color: #200768;
+  border-radius: 25%;
+}
+
+.boss-name {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.boss-pos {
+  text-align: center;
+}
+
+.team-pos,
+.adv-pos,
+.boss-pos {
+  font-size: 1.2rem;
+}
+
+.team-name,
+.team-pos,
+.adv-pos,
+.boss-name,
+.boss-pos {
+  margin-left: 0.5rem;
+}
+
+.advisors {
+  margin-top: 5rem;
+}
+
+.boss-area {
+  border: 2rem solid black;
+  border-top: 0rem;
+}
+
+.boss-img {
+  padding: 7.5rem;
+}
+
+.boss-info {
+  margin-top: -7rem;
+}
+
+.boss-list {
+  padding: 0rem 4rem;
+  margin-top: 3.75rem;
+}
+
+.boss-list .b-item:not(:first-child) {
+  margin-top: 2rem;
+}

@@ -9,6 +9,7 @@ import Spawn from "./pages/Spawn";
 import AvatarSystem from "./pages/AvatarSystem";
 import Reblika from "./pages/Reblika";
 import Tutorials from "./pages/Tutorials";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/avatar_system" element={<AvatarSystem />} />
       <Route exact path="/reblika" element={<Reblika />} />
       <Route exact path="/tutorials" element={<Tutorials />} />
+      <Route exact path="/about_us" element={<AboutUs />} />
     </Routes>
   );
 }
