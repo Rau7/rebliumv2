@@ -19,19 +19,24 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="/omniface">
                   Omniface
-                </a>
+                </Link>
               </li>
               <li className="flist-item">
-                <a className="footer-link" href="#">
-                  SPAWN SDK
-                </a>
+                <Link className="footer-link" to="/spawn">
+                  Spawn SDK
+                </Link>
               </li>
               <li className="flist-item">
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="/styletto">
                   Styletto
-                </a>
+                </Link>
+              </li>
+              <li className="flist-item">
+                <Link className="footer-link" to="/avatar_system">
+                  Avatar System
+                </Link>
               </li>
             </ul>
           </div>

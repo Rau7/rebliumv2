@@ -86,6 +86,11 @@ function Navbar() {
                       </Link>
                     </li>
                     <li>
+                      <Link className="dropdown-item" to="/reblika">
+                        Reblika
+                      </Link>
+                    </li>
+                    <li>
                       <a className="dropdown-item" href="#">
                         Jobs
                       </a>
