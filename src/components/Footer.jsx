@@ -19,13 +19,19 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <a href="#">Omniface</a>
+                <a className="footer-link" href="#">
+                  Omniface
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">SPAWN SDK</a>
+                <a className="footer-link" href="#">
+                  SPAWN SDK
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">Styletto</a>
+                <a className="footer-link" href="#">
+                  Styletto
+                </a>
               </li>
             </ul>
           </div>
@@ -35,16 +41,24 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <Link to="/blog">Blog</Link>
+                <Link className="footer-link" to="/blog">
+                  Blog
+                </Link>
               </li>
               <li className="flist-item">
-                <Link to="/about_us">About</Link>
+                <Link className="footer-link" to="/about_us">
+                  About
+                </Link>
               </li>
               <li className="flist-item">
-                <a href="#">Jobs</a>
+                <a className="footer-link" href="#">
+                  Jobs
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">Press Kit</a>
+                <a className="footer-link" href="#">
+                  Press Kit
+                </a>
               </li>
             </ul>
           </div>
@@ -54,13 +68,19 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <Link to="/tutorials">Tutorials</Link>
+                <Link className="footer-link" to="/tutorials">
+                  Tutorials
+                </Link>
               </li>
               <li className="flist-item">
-                <a href="#">Get Help</a>
+                <a className="footer-link" href="#">
+                  Get Help
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">FAQ</a>
+                <a className="footer-link" href="#">
+                  FAQ
+                </a>
               </li>
             </ul>
           </div>
@@ -70,13 +90,19 @@ function Footer() {
           <div className="footer-list">
             <ul>
               <li className="flist-item">
-                <a href="#">Avatar Contest</a>
+                <a className="footer-link" href="#">
+                  Avatar Contest
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">Discord</a>
+                <a className="footer-link" href="#">
+                  Discord
+                </a>
               </li>
               <li className="flist-item">
-                <a href="#">Forum</a>
+                <a className="footer-link" href="#">
+                  Forum
+                </a>
               </li>
             </ul>
           </div>
