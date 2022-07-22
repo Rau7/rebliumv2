@@ -120,12 +120,12 @@ function AboutUs() {
               </ul>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 team-area">
             <div className="all-team">
               <div className="team">
                 <h2 className="team-heading">The Team</h2>
                 <div className="row team-row">
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img
                       className="team-img"
                       src={migle}
@@ -134,12 +134,12 @@ function AboutUs() {
                     <p className="team-name">Migle Rakitaite</p>
                     <p className="team-pos">Chief Digital Officer</p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img className="team-img" src={john} alt="Head of Studio" />
                     <p className="team-name">John Prieto</p>
                     <p className="team-pos">Head of Studio</p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img
                       className="team-img"
                       src={steve}
@@ -148,7 +148,7 @@ function AboutUs() {
                     <p className="team-name">Steve Hashimawari</p>
                     <p className="team-pos">Head of Operation</p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img
                       className="team-img"
                       src={vincent}
@@ -162,7 +162,7 @@ function AboutUs() {
               <div className="advisors">
                 <h2 className="team-heading">Advisors</h2>
                 <div className="row team-row">
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img
                       className="team-img"
                       src={adv1}
@@ -172,13 +172,13 @@ function AboutUs() {
                     <p className="team-pos">Strategic Advisor</p>
                     <p className="adv-pos">AIKON IBM Accelarator Mentor</p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img className="team-img" src={adv2} alt="Jasper Bekkers" />
                     <p className="team-name">Jasper Bekkers</p>
                     <p className="team-pos">Founder and CTO at </p>
                     <p className="adv-pos">Traverse Research</p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img className="team-img" src={adv3} alt="Max Louwerse" />
                     <p className="team-name">Max Louwerse</p>
                     <p className="team-pos">Professor of Cognitive</p>
@@ -186,7 +186,7 @@ function AboutUs() {
                       Psychology & Artificial Intelligence
                     </p>
                   </div>
-                  <div className="col-md-3 team-member">
+                  <div className="col-md-3 col-sm-3 col-6 team-member">
                     <img
                       className="team-img"
                       src={adv4}
