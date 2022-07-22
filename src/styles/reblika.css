@@ -79,12 +79,13 @@
 
 @media screen and (max-width: 576px) {
   .reb-wrt {
-    top: 75%;
+    top: 95%;
   }
   .reb-head1 {
     font-size: 2rem;
     top: 95%;
     letter-spacing: 1rem;
+    width: auto;
   }
   .reb-head2 {
     font-size: 1.5rem;
