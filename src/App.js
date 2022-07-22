@@ -10,6 +10,7 @@ import AvatarSystem from "./pages/AvatarSystem";
 import Reblika from "./pages/Reblika";
 import Tutorials from "./pages/Tutorials";
 import AboutUs from "./pages/AboutUs";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/reblika" element={<Reblika />} />
       <Route exact path="/tutorials" element={<Tutorials />} />
       <Route exact path="/about_us" element={<AboutUs />} />
+      <Route exact path="/blog" element={<Blog />} />
     </Routes>
   );
 }

@@ -76,9 +76,9 @@ function Navbar() {
                     aria-labelledby="dropdownMenuButton2"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="/blog">
                         Blog
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item" to="/about_us">

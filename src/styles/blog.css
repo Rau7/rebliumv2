@@ -1,0 +1,153 @@
+.blog-landing {
+  position: relative;
+}
+
+.blog-main {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.blog-wrt {
+  margin-top: 10rem;
+}
+
+.blog-wrt p {
+  letter-spacing: 1.75rem;
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+/* BLOG AREA */
+
+.blog-area {
+  margin-top: 7.5rem;
+}
+
+.caregory-buttons {
+}
+
+.load-more {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right,
+    #f5189e 0%,
+    #6167c4 51%,
+    #f5189e 100%
+  );
+}
+.load-more:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+  background-position: right center;
+  color: #fff;
+}
+
+@media screen and (max-width: 765px) {
+  .load-more {
+    font-size: 1rem;
+  }
+}
+
+.blog-element {
+  margin-top: 10rem;
+  display: flex;
+}
+
+.pagination {
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.page-num-btn {
+  color: white;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.page-num-btn.active {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.page-num-btn:hover {
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.next-btn {
+  color: #c047fa;
+  letter-spacing: 1rem;
+  background-color: transparent;
+  font-size: 1.75rem;
+  border: 2px solid transparent;
+  border-radius: 12%;
+}
+
+.next-btn:hover {
+  color: #c047fa;
+  border: 2px solid #c047fa;
+}
+
+/* RECOMMEND AREA */
+
+.recommend-area {
+  margin-top: 10rem;
+}
+
+.recomm-img {
+  width: 100%;
+}
+
+.reccoms {
+  margin-top: 5rem;
+}
+
+/* AUTHOR AREA */
+
+.author-img {
+  height: 5.3rem;
+  width: 5.3rem;
+}
+
+.author-area {
+  margin-top: 2.5rem;
+  gap: 2rem;
+}
+
+.post-info {
+  margin-top: 1.5rem;
+}
+
+.post-date {
+  font-size: 1.5rem;
+  color: #6f6f6f;
+}
